@@ -1,6 +1,6 @@
 <h1>CRUD Application</h1>
 <h4>Overview</h4>
-This project is a simple yet powerful CRUD (Create, Read, Update, Delete) application built using HTML, CSS, and JavaScript. The application allows users to manage a list of products efficiently by performing basic CRUD operations. The interface is user-friendly and designed to be intuitive for smooth interaction.
+<p>This project was developed two years ago as a simple yet effective CRUD (Create, Read, Update, Delete) application using HTML, CSS, and JavaScript. The goal was to create a lightweight and user-friendly interface for managing a list of products, providing essential functionality for data entry and management.</p>
 
 <h3>Features</h3>
 -Add Product: Input fields to add new products with details such as name, price, discount, taxes, and category.
