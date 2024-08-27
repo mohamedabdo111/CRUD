@@ -1,0 +1,238 @@
+body{
+    background-color: rgb(49, 45, 45);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.parent{
+    color: white;
+    width: 80%;
+    margin: 20px auto
+
+}
+
+.parent .header p{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.forms{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+}
+.forms #title{
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    font-size: medium;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.forms #Price{
+    width: calc(100% / 5);
+    padding: 6px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    font-size: medium;
+    color: white;
+}
+
+
+.forms #Taxes{
+    width: calc(100% / 5);
+    padding: 6px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    font-size: medium;
+    color: white;
+}
+
+
+.forms #Ads{
+    width: calc(100% / 5);
+    padding: 6px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    font-size: medium;
+    color: white;
+}
+
+
+.forms span{
+    content: "Total";
+    width: calc(100% / 5);
+    padding: 6px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    font-size: medium;
+    color: white;
+
+}
+
+.forms span::before{
+    content: "Total: " ;
+    color: white;
+    
+}
+
+.forms #Discount{
+    width: calc(100% / 5);
+    padding: 6px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    font-size: medium;
+    color: white;
+}
+
+
+
+.forms #count{
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    font-size: medium;
+    color: white;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+
+
+.forms #Category{
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    font-size: large;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.forms #create{
+    width: 100%;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 183);
+    border: none;
+    font-size: medium;
+    color: white;
+     text-transform: capitalize;
+     cursor: pointer;
+}
+
+
+.forms .searchBy{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.forms .searchBy #search{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+
+    margin-bottom: 10px;
+}
+
+
+.forms .searchBy #SBT{
+    width: 45%;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 183);
+    border: none;
+    font-size: medium;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
+
+
+.forms .searchBy #SBC{
+    width: 45%;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 183);
+    border: none;
+    font-size: medium;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+
+.forms .searchBy #DA{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 183);
+    border: none;
+    font-size: medium;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    border-top: 2px solid #eee;
+}
+table button{
+ background-color: rgb(1, 1, 183);
+ padding: 6px;
+ border-radius: 5px;
+ border: none;
+ color: white;
+ font-size: medium;
+}
+
+table thead{
+    text-transform: capitalize;
+}
+
+th , td{
+    padding: 5px;
+}
+
+button:focus{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+button{
+    cursor: pointer;
+}
+
+input:focus{
+    cursor: pointer;
+    transform: scale(1.1);
+}
